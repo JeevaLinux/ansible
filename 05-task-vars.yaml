@@ -2,7 +2,7 @@
   hosts: local
   connection: local # Ansible is connecting to localhost
   vars: #play level variables
-    COURSE: Ansible #variables
+    COURSE: DevOps with AWS #variables
     DURATION: 10HRS #variables
     TRAINER: Sivakumar Reddy #variables
   tasks:
