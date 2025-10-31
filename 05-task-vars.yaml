@@ -7,7 +7,7 @@
     TRAINER: Sivakumar Reddy #variables
   tasks:
   - name: print the course info
-    vars:
-      COURSE: Ansible
+    vars: 
+      COURSE: Ansible #like over riding or inheritance and preference will be task level
     ansible.builtin.debug:
       msg: "Course Name is: {{ COURSE }}, Duration: {{ DURATION }}, Trainer: {{ TRAINER }}" 
