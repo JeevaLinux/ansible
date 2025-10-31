@@ -11,10 +11,14 @@
     private: false
   tasks:
   - name: testing variables preference
-    # vars: 
-    #   NAME: from task level
+    vars: 
+      NAME: from task level
     ansible.builtin.debug:
       msg: "Name: {{ NAME }}"
 
       #1. first prefernece is args or command line? command line
-      #2.from prompt
+      #2.from tasks
+      #3.from files
+      #4.from prompt
+      #5. from play level
+      #6. finally inventory
