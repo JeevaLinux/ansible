@@ -1,0 +1,7 @@
+- name: gather fcats
+  hosts: local
+  connection: local
+  tasks:
+  - name: fatcs
+    ansibloe.builtin.debug:
+      msg: "{{ ansible_facts }}"
