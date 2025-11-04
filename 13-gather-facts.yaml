@@ -1,6 +1,7 @@
 - name: gather fcats
   hosts: local
   connection: local
+  # ansible collects the info of target server, before it executes any other fact
   tasks:
   - name: fatcs
     ansibloe.builtin.debug:
