@@ -6,7 +6,7 @@
     #dictionry == map
     tags: 
       Application: payment
-      Environment: Dev
+      Environment: dev
     #list  
     listTags:
     - key: Apllication
