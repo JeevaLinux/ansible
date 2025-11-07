@@ -3,7 +3,7 @@
   connection: local
   tasks:
   - name: print names
-    ansible.biultin.debug:
+    ansible.builtin.debug:
       msg: "Hello {{ item }}" #item is reserved
     loop:
     - Jeeva
